@@ -1,0 +1,68 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); 
+}
+#Head{
+    margin: 25px;
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: 2px 2px #3A6073;
+}
+#grid-container{
+    width: 360px;
+    height: 360px;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px;
+    margin: 10px;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29);
+
+    -webkit-box-shadow:0px 0px 100px 60px rgba(36,59,85,0.9);
+    -moz-box-shadow: 0px 0px 100px 60px rgba(36,59,85,0.9);
+    box-shadow: 0px 0px 100px 60px rgba(36,59,85,0.9);
+}
+.grid-item{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: "Permanent Marker", cursive;
+}
+.grid-item:hover{
+    cursor: pointer;
+}
+.msg{
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 30px;
+    text-shadow: 2px 2px #3A6073;
+}
+button{
+    font-size: 25px;
+    background-color: #606c88;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+}
