@@ -37,3 +37,5 @@ Play with Local Player
 Take turns clicking on the squares in the 3x3 grid to mark either 'X' or 'O'.
 
 The first player to get three of their marks in a row (vertically, horizontally, or diagonally) wins the game.
+
+Game Link: https://muditgupta07.github.io/Tic-Tac-Toe-Game/
